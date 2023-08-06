@@ -1,16 +1,20 @@
-.menu{
-    font-size: 1.2em;  
-    
-}
-ul{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+.menu {
+    font-size: 1.2em;
+  }
+  
+  ul {
     list-style: none;
-}
-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  a {
     text-decoration: none;
-}
-.activeLink{
-    color: blue;
-}
+    color: rgb(14, 14, 14);
+  }
+  
+  .activeLink {
+    font-weight: bold;
+    color: #07c5fa;
+  }
